@@ -21,7 +21,7 @@ API_HASH = environ.get("8ebf6f5403d9494a94f1ee1330027ed8", "") # Replace with yo
 BOT_TOKEN = environ.get("8097293222:AAEdlYC4QABlq0Uhz4lnCb_Wf9W7Ke4LewI","") # Replace with your Bot Token
 BAN_CMD = ["remove_all", "removeall", "banall", 'ban_all'] # Command to trigger the bot
 
-app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("bot", api_id=28642558, api_hash=8ebf6f5403d9494a94f1ee1330027ed8, bot_token=8097293222:AAEdlYC4QABlq0Uhz4lnCb_Wf9W7Ke4LewI)
 
 @app.on_message(filters.command("start") & filters.private)
 async def start(client, message):
