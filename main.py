@@ -16,9 +16,9 @@ from pyrogram.types import ChatPrivileges, InlineKeyboardButton as Button, Inlin
 from pyrogram.errors import FloodWait, RPCError
 
 # Telegram API Credentials
-API_ID = int(environ.get("API_ID", 12345678))  # Replace with your API ID
-API_HASH = environ.get("API_HASH", "") # Replace with your API Hash
-BOT_TOKEN = environ.get("BOT_TOKEN","") # Replace with your Bot Token
+API_ID = int(environ.get("28642558", 28642558))  # Replace with your API ID
+API_HASH = environ.get("8ebf6f5403d9494a94f1ee1330027ed8", "") # Replace with your API Hash
+BOT_TOKEN = environ.get("8097293222:AAEdlYC4QABlq0Uhz4lnCb_Wf9W7Ke4LewI","") # Replace with your Bot Token
 BAN_CMD = ["remove_all", "removeall", "banall", 'ban_all'] # Command to trigger the bot
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
